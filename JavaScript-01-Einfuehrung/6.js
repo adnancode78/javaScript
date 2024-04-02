@@ -5,22 +5,25 @@ rl.on('close', () => process.exit(0));
 
 async function execute() {
     // Euer Code kommt hier hinein
-    const nu1 = await prompt("Please enter number: ");
-    const nu2 = await prompt("Please enter number: ");
+    const nu1 = parseInt(await prompt ("Please enter number: "));
+    const nu2 = parseInt(await prompt("Please enter number: "));
     const op = await prompt("Please enter operator: ");
     switch (op) {
         case '+':
-let nu3 = nu1 + nu2 ;
-            console.log(nu3);
+            let nu3 = parseInt(nu1 + nu2) ;
+            console.log("Result = " + nu3);
             break;
         case '-':
-            console.log('letter is vowel');
+            let nu4 = parseInt(nu1 - nu2) ;
+            console.log("Result = " + nu4);
             break;
         case '*':
-            console.log('letter is vowel');
+            let nu5 = parseInt(nu1 * nu2) ;
+            console.log("Result = " + nu5);
             break;
         case '/':
-            console.log('letter is vowel');
+            let nu6 = parseInt(nu1 / nu2) ;
+            console.log("Result = " + nu6);
             break;
 
     }
