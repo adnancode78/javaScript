@@ -1,14 +1,10 @@
 //
-// Deny the table shown as a two-dimensional array and let the
-// User specify a row and column number, enter the desired value
-// out of
-//
-//
-// First name      Last name       Old
-// Hans	        	Müller		   22
-// George	    	Huber		   37
-// Fritz	    	Mayr		   19
-//  ----------------------------------------------------------------
+//     Use the same table as a two-dimensional array, but let the user
+//     specify a row number and the name of a column. Use for
+//     Assignment of the column name to a column number of an object. Give that
+//     desired value.
+
+// ---------------------------------------------------------------- --------------------------------
 
 
 const readline = require('readline');
@@ -20,8 +16,13 @@ async function execute() {
     const table = [
         ['Hans', 'Müller', 22],
         ['George', 'Huber', 37],
-        ['Fritz', 'Mayr', 19]
+        ['Fritz', 'Mayr', 19],
     ];
+    const columnKeys ={
+            hans: 0,
+            george: 1,
+            fritz: 2,
+    }
 
     console.table(table);
 
@@ -29,8 +30,9 @@ async function execute() {
     let column;
     let row;
     do {
-        column = await prompt("Enter column number:");
+        column = await prompt("Enter column name:");
         row = await prompt("Enter row number:");
+        column = columnKeys[column.toLowerCase()];
 
         check = row >= 0 && row < table.length && column >= 0 && column < table.length;
     } while (!check);
@@ -39,3 +41,9 @@ async function execute() {
 }
 
 execute().catch((err) => { console.error(err); }).finally(() => rl.close());
+
+
+
+
+
+
