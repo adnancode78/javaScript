@@ -5,16 +5,25 @@ rl.on('close', () => process.exit(0));
 
 async function execute() {
     // Euer Code kommt hier hinein
-    const nu1 = parseInt(await prompt ("Please enter number: "));
-    const nu2 = parseInt(await prompt("Please enter number: "));
-    const nu3 = parseInt(await prompt ("Please enter number: "));
-    const nu4 = parseInt(await prompt("Please enter number: "));
-    let max = Math.max (nu1, nu2, nu3, nu4);
+    let num1 = parseInt(await prompt ("Please enter number: "));
+    let num2 = parseInt(await prompt("Please enter number: "));
+    let num3 = parseInt(await prompt ("Please enter number: "));
+    let num4 = parseInt(await prompt("Please enter number: "));
 
-    let min = Math.min (nu1, nu2, nu3, nu4);
-    console.log("max number is " + max);
-    console.log("min number is " + min);
+        let max = num1;
+        if (num2 > max) {
+            max = num2;
+        }
+        if (num3 > max) {
+            max = num3;
+        }
+        if (num4 > max) {
+            max = num4;
+        }
 
+
+
+    console.log("The maximum number is:", max);
 
 
 
@@ -24,3 +33,6 @@ async function execute() {
 }
 
 execute().catch((err) => { console.error(err); }).finally(() => rl.close());
+
+
+

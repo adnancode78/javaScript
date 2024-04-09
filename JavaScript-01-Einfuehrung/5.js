@@ -5,26 +5,34 @@ rl.on('close', () => process.exit(0));
 
 async function execute() {
     // Euer Code kommt hier hinein
-    const letter = await prompt("Please enter letter: ");
-    switch (letter) {
-        case 'a':
-            console.log('letter is vowel');
-            break;
-        case 'e':
-            console.log('letter is vowel');
-            break;
-        case 'i':
-            console.log('letter is vowel');
-            break;
-        case 'o':
-            console.log('letter is vowel');
-            break;
-        case 'u':
-            console.log('letter is vowel');
-;
-        default:
-            console.log('letter is consonant');
+    let letter = await prompt("Please enter letter: ");
+    letter = letter.charAt(0).toLowerCase();
+
+
+    if (letter.charAt(0) >= 122 && letter.charAt(0) < 97 || !isNaN(letter)) {
+        console.log("Please input right Character")
     }
+    else
+        {
+            switch (letter) {
+                case 'a':
+
+                case 'e':
+
+                case 'i':
+
+                case 'o':
+
+                case 'u':
+                    console.log('letter is vowel');
+                    break;
+
+                default:
+                    console.log('letter is consonant');
+                    break;
+            }
+        }
+
     // Ende von eurem Code
 }
 

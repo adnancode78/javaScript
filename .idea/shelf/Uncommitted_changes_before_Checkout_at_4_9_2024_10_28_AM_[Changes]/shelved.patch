@@ -1,0 +1,42 @@
+Index: js03-ArraysUndObjekte/1.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>const readline = require('readline');\r\nconst rl = readline.createInterface({ input: process.stdin, output: process.stdout });\r\nconst prompt = (query) => new Promise((resolve) => rl.question(query, resolve));\r\nrl.on('close', () => process.exit(0));\r\n\r\nasync function execute() {\r\n    // Define the days of the week in an array (moved outside the function)\r\n    const daysOfWeek = [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"];\r\n\r\n    const dayNumber = parseInt(await prompt(\"Enter a number from 1-7 to get the corresponding day: \"), 10);\r\n    console.log(getDay(dayNumber));\r\n\r\n    // Function to read a number and output the corresponding day\r\n    function getDay(number) {\r\n        if (number >= 1 && number <= 7) {\r\n            return daysOfWeek[number - 1];\r\n        } else {\r\n            return \"Invalid number. Please enter a number from 1-7.\";\r\n        }\r\n    }\r\n}\r\n\r\nexecute();\r\n\r\n
+===================================================================
+diff --git a/js03-ArraysUndObjekte/1.js b/js03-ArraysUndObjekte/1.js
+--- a/js03-ArraysUndObjekte/1.js	
++++ b/js03-ArraysUndObjekte/1.js	
+@@ -7,6 +7,7 @@
+     // Define the days of the week in an array (moved outside the function)
+     const daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+ 
++
+     const dayNumber = parseInt(await prompt("Enter a number from 1-7 to get the corresponding day: "), 10);
+     console.log(getDay(dayNumber));
+ 
+Index: js03-ArraysUndObjekte/3.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//\r\n// Deny the table shown as a two-dimensional array and let the\r\n// User specify a row and column number, enter the desired value\r\n// out of\r\n//\r\n//\r\n// First name      Last name       Old\r\n// Hans\t        \tMüller\t\t   22\r\n// George\t    \tHuber\t\t   37\r\n// Fritz\t    \tMayr\t\t   19\r\n//  ----------------------------------------------------------------\r\n\r\n\r\nconst readline = require('readline');\r\nconst rl = readline.createInterface({ input: process.stdin, output: process.stdout });\r\nconst prompt = (query) => new Promise((resolve) => rl.question(query, resolve));\r\nrl.on('close', () => process.exit(0));\r\n\r\nasync function execute() {\r\n    const table = [\r\n        ['Hans', 'Müller', 22],\r\n        ['George', 'Huber', 37],\r\n        ['Fritz', 'Mayr', 19]\r\n    ];\r\n\r\n    console.table(table);\r\n\r\n    let check;\r\n    let column;\r\n    let row;\r\n    do {\r\n        column = await prompt(\"Enter column number:\");\r\n        row = await prompt(\"Enter row number:\");\r\n\r\n        check = row >= 0 && row < table.length && column >= 0 && column < table.length;\r\n    } while (!check);\r\n\r\n    console.log(table[column][row]);\r\n}\r\n\r\nexecute().catch((err) => { console.error(err); }).finally(() => rl.close());
+===================================================================
+diff --git a/js03-ArraysUndObjekte/3.js b/js03-ArraysUndObjekte/3.js
+--- a/js03-ArraysUndObjekte/3.js	
++++ b/js03-ArraysUndObjekte/3.js	
+@@ -25,6 +25,7 @@
+ 
+     console.table(table);
+ 
++
+     let check;
+     let column;
+     let row;
+@@ -35,7 +36,7 @@
+         check = row >= 0 && row < table.length && column >= 0 && column < table.length;
+     } while (!check);
+ 
+-    console.log(table[column][row]);
++    console.log("Value is " + table[column][row]);
+ }
+ 
+ execute().catch((err) => { console.error(err); }).finally(() => rl.close());
+\ No newline at end of file

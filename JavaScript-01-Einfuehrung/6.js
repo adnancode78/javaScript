@@ -22,7 +22,7 @@ async function execute() {
             console.log("Result = " + nu5);
             break;
         case '/':
-            let nu6 = parseInt(nu1 / nu2) ;
+            let nu6 = ( nu1 /  nu2) ;
             console.log("Result = " + nu6);
             break;
 
