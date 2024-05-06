@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8c74eb6-92bf-45fd-b5ff-85bc3e228f6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaScript-01-Einfuehrung/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="js03-ArraysUndObjekte" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;adnancode78&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="95897c0f-a0db-454b-a468-425c73c0a683" />
+        <option name="url" value="https://github.com/adnancode78/javaScript.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2eCqoBvzKCjSXFn6VxIKMiG4M2A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.1.js (1).executor": "Run",
+    "Node.js.1.js.executor": "Run",
+    "Node.js.2.js (1).executor": "Run",
+    "Node.js.2.js.executor": "Run",
+    "Node.js.3.js (1).executor": "Debug",
+    "Node.js.3.js.executor": "Run",
+    "Node.js.4.js (1).executor": "Run",
+    "Node.js.4.js.executor": "Run",
+    "Node.js.5.js.executor": "Run",
+    "Node.js.6.js.executor": "Run",
+    "Node.js.65.js.executor": "Run",
+    "Node.js.7.js.executor": "Run",
+    "Node.js.8.js.executor": "Run",
+    "Node.js.UbungenzuSchleifen1.js.executor": "Run",
+    "Node.js.UbungenzuSchleifen2.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "JavaScript-01-Einfuehrung",
+    "last_opened_file_path": "C:/Users/Codersbay/Projects/NPM-playground",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="QodanaCloudProjectLink">
+    <option name="lastReportId" value="9JKRj" />
+    <option name="linkedProjectId" value="3jBv4" />
+    <option name="linkedProjectName" value="Hello World" />
+    <option name="organizationId" value="Al98W" />
+    <option name="userId" value="31kR8" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Codersbay\Projects\HtmlProjects\javaScript" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.8.js">
+    <configuration name="5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript-01-Einfuehrung/5.js" working-dir="$PROJECT_DIR$/JavaScript-01-Einfuehrung">
+      <method v="2" />
+    </configuration>
+    <configuration name="65.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript-01-Einfuehrung/65.js" working-dir="$PROJECT_DIR$/JavaScript-01-Einfuehrung">
+      <method v="2" />
+    </configuration>
+    <configuration name="6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript-01-Einfuehrung/6.js" working-dir="$PROJECT_DIR$/JavaScript-01-Einfuehrung">
+      <method v="2" />
+    </configuration>
+    <configuration name="7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript-01-Einfuehrung/7.js" working-dir="$PROJECT_DIR$/JavaScript-01-Einfuehrung">
+      <method v="2" />
+    </configuration>
+    <configuration name="8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript-01-Einfuehrung/8.js" working-dir="$PROJECT_DIR$/JavaScript-01-Einfuehrung">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.65.js" />
+        <item itemvalue="Node.js.8.js" />
+        <item itemvalue="Node.js.7.js" />
+        <item itemvalue="Node.js.6.js" />
+        <item itemvalue="Node.js.5.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8c74eb6-92bf-45fd-b5ff-85bc3e228f6e" name="Changes" comment="" />
+      <created>1711419080085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711419080085</updated>
+      <workItem from="1711419081138" duration="1751000" />
+      <workItem from="1711421141391" duration="18000" />
+      <workItem from="1711421274782" duration="23000" />
+      <workItem from="1711424083409" duration="41000" />
+      <workItem from="1712134280163" duration="72000" />
+      <workItem from="1712134385422" duration="3650000" />
+      <workItem from="1712138650953" duration="7451000" />
+      <workItem from="1712146186366" duration="2467000" />
+      <workItem from="1712179221825" duration="10908000" />
+      <workItem from="1712212016674" duration="14119000" />
+      <workItem from="1712527528543" duration="4945000" />
+      <workItem from="1712559261069" duration="1328000" />
+      <workItem from="1712566271298" duration="3929000" />
+      <workItem from="1712647186771" duration="10389000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="rl" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
