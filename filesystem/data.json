@@ -1,0 +1,27 @@
+[
+  {
+    "productNr": "1",
+    "productName": "iphone",
+    "productPrice": "999"
+  },
+  {
+    "productNr": "2",
+    "productName": "samsung",
+    "productPrice": "998"
+  },
+  {
+    "productNr": "3",
+    "productName": "xiaomi",
+    "productPrice": "200"
+  },
+  {
+    "productNr": "4",
+    "productName": "nokia",
+    "productPrice": "2"
+  },
+  {
+    "productNr": "5",
+    "productName": "motorola",
+    "productPrice": "40"
+  }
+]
